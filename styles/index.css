@@ -1,0 +1,146 @@
+header {z-index: 999;
+    position: flex;
+    display: flex; align-items: center; justify-content: space-between;
+    width: 1850px; margin: 0 auto;
+    background-color: #fff;
+    padding-top: 30.5px; padding-bottom: 30.5px;
+}
+/* logo */
+header .header_left {
+    display: flex; align-items: center;
+}
+header .header_left h1 {margin-right: 30px;}
+header .header_left h1 a {}
+header .header_left h1 a img {}
+/* nav */
+header .header_left nav {}
+/* gnb메뉴 */
+header .header_left nav .gnb {
+    display: flex;
+}
+header .header_left nav .gnb li {
+    margin-right: 23px;
+    font-size: 0.938rem; font-weight: 500;
+}
+header .header_left nav .gnb li:nth-child(3) {color: #56B2F6;}
+header .header_left nav .gnb li:last-child {margin-right: 0;}
+header .header_left nav .gnb li a {}
+/* sub메뉴 */
+header .header_left nav .gnb li .sub {display: none;}
+header .header_left nav .gnb li .sub li {}
+header .header_left nav .gnb li .sub li a {}
+/* header right */
+header .header_right {
+    display: flex; align-items: center;
+}
+/* login, join, cart 공통 */
+header .header_right a {
+    display: flex; align-items: center;
+    margin-right: 20px;
+
+}
+header .header_right a:last-child {margin-right: 0;}
+header .header_right a img {margin-right: 1px;}
+header .header_right a span {
+    font-size: 0.938rem;
+}
+/* =================================== */
+main {}
+main .main1_bg {
+    width: 1920px; margin: 0 auto;
+    margin-bottom: 60px;
+}
+/* ========================================== */
+main .main2 {/* background-color: lightblue; */
+    width: 1685px; margin: 0 auto;
+    margin-bottom: 92px;
+}
+/* main2 메뉴들 전체-만원대-반값할인-역마진-우먼즈-맨즈-골프-키즈-슈즈&용품 */
+main .main2 .main2_top {
+    margin-bottom: 60px;
+    display: flex; justify-content: space-between;
+}
+main .main2 .main2_top .main2_top_left {}
+main .main2 .main2_top .main2_top_left a {
+    margin-right: 11px;
+    width: 70px;
+    background-color: #F8F8F8; color: #464646; 
+    border: 1px solid #dadada; border-radius: 30px;
+    padding: 7.5px 16px; text-align: center;
+}
+main .main2 .main2_top .main2_top_left a:first-child {
+    background-color: #464646; color: #fff;
+    width: 70px; padding: 7.5px 16px; text-align: center;
+    border: 0;
+}
+main .main2 .main2_top .main2_top_left a:last-child {margin-right: 0;}
+/* 신상품 - 낮은가격 - 높은가격 - 인기상품 */
+main .main2 .main2_top .main2_top_right {}
+main .main2 .main2_top .main2_top_right a {
+    margin-right: 16px;
+    font-size: 0.938rem; 
+}
+main .main2 .main2_top .main2_top_right a:last-child {margin-right: 0;}
+/* product */
+main .main2 .main2_bottom {}
+main .main2 .main2_bottom .product {
+    display: flex;
+}
+main .main2 .main2_bottom .product a {
+    margin-right: 40px;
+}
+main .main2 .main2_bottom .product a:last-child {margin-right: 0;}
+main .main2 .main2_bottom .product a p {}
+main .main2 .main2_bottom .product a p img {}
+main .main2 .main2_bottom .product a .product_content {}
+main .main2 .main2_bottom .product a .product_content .top {
+    display: flex; justify-content: space-between;
+    margin-bottom: 9px;
+}
+main .main2 .main2_bottom .product a .product_content .top .product_num {
+    font-size: 0.813rem; color: #A7A7A7;
+}
+main .main2 .main2_bottom .product a .product_content .top .review {
+    font-size: 0.813rem; color: #EE5E95;
+}
+main .main2 .main2_bottom .product a .product_content h2 {
+    margin-bottom: 7px;
+    font-size: 0.938rem; font-weight: 500;
+}
+main .main2 .main2_bottom .product a .product_content .bottom {
+    display: flex;
+}
+main .main2 .main2_bottom .product a .product_content .bottom p {
+    margin-right: 9px;
+}
+main .main2 .main2_bottom .product a .product_content .bottomn p:last-child {margin-right: 0;}
+main .main2 .main2_bottom .product a .product_content .bottom .percent {
+    font-size: 0.938rem; color: #EE5E95;
+}
+main .main2 .main2_bottom .product a .product_content .bottom .price {font-size: 0.938rem;}
+main .main2 .main2_bottom .product a .product_content .bottom .cost {}
+main .main2 .main2_bottom .product a .product_content .bottom .cost del {
+    font-size: 0.813rem; color: #595656;
+}
+/* ============================================================================ */
+main .main3_bg {
+    width: 1920px; margin: 0 auto;
+    margin-bottom: 80px;
+}
+main .main3_bg img {}
+/* ============================================================================== */
+main .main4 {
+    width: 1920px; margin: 0 auto;
+    text-align: center;
+    margin-bottom: 79px; 
+}
+main .main4 h2 {
+    font-size: 3.125rem; font-weight: 600;
+    margin-bottom: 19px;
+}
+main .main4 p {
+    font-size: 1.563rem; line-height: 50px; letter-spacing: -0.2px;
+}
+/* ================================================================ */
+main .main5_bg {width: 1920px; margin: 0 auto; margin-bottom: 80px;}
+/* ================================================================ */
