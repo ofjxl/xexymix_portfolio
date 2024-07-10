@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>젝시믹스 메인페이지</title>
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script/index.js" defer></script>
+    <!-- 기본 링크 연결 -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./script/index.js">
@@ -110,7 +118,22 @@
         </div>
     </header>
     <main>
-        <div class="main1_bg"><img src="./images/main1_bg.jpg" alt=""></div>
+        <div class="main1">
+            <div class="swiper main1-slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="main1_bg">
+                            <img src="./images/main1_bg.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="main1_bg">
+                            <img src="./images/main1_bg2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="main2">
             <div class="main2_top">
                 <div class="main2_top_left">

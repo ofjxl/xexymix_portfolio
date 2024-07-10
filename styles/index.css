@@ -46,10 +46,19 @@ header .header_right a span {
 }
 /* =================================== */
 main {}
-main .main1_bg {
+main .main1 {
     width: 1920px; margin: 0 auto;
     margin-bottom: 60px;
 }
+/* -----swiper 시작 */
+main .main1 .swiper {}
+main .main1 .main1-slide {}
+main .main1 .swiper {}
+main .main1 .swiper .swiper-wrapper {}
+main .main1 .swiper .swiper-wrapper .swiper-slide {}
+/* 건들면 안됨 */
+main .main1 .swiper .swiper-wrapper .swiper-slide .main1_bg {}
+main .main1 .swiper .swiper-wrapper .swiper-slide .main1_bg img {}
 /* ========================================== */
 main .main2 {/* background-color: lightblue; */
     width: 1685px; margin: 0 auto;
