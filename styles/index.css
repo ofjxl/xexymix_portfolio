@@ -245,7 +245,7 @@ main .main8 {
 }
 main .main8 .footer {
     width: 1750px; margin: 0 auto; 
-    display: flex; 
+    display: flex; justify-content: space-between;
     padding: 71.87px 85px 72.78px;
 }
 main .main8 .footer .footer_left {}
@@ -309,3 +309,67 @@ main .main8 .footer .footer_left .footer_left_contents > p:first-child {
     margin-bottom: 0;
 }
 main .main8 .footer .footer_left .footer_left_contents .f_l_content p::after {}
+/* -----------footer_right */
+main .main8 .footer .footer_right {}
+/* -----탑 */
+main .main8 .footer .footer_right .f_r_top {
+    /* background-color: lightgreen; */
+    display: flex; 
+    margin-bottom: 45.44px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject {
+    margin-right: 50px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject:last-child {margin-right: 0;}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject .title {
+    font-size: 0.938rem; font-weight: 500;
+    margin-bottom: 10px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content {}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content p {
+    margin-bottom: 6px;
+    font-size: 0.75rem; color: #828282;
+}
+main .main8 .footer .footer_right .r_r_top .f_r_top_subject .f_r_top_content {
+    line-height: 18px;
+    /* background-color: tomato; */
+    margin-top: 13px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content p span {font-size: 0.75rem; margin-left: 8px;}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject button {
+    width: 105px; background-color: #000; border: 0; border-radius: 2px;
+    display: flex; align-items: center; text-align: center;
+    padding: 6px 8px;
+    margin-top: 25px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject button span {
+    color: #fff; font-size: 0.75rem; 
+    margin-right: 6px;
+}
+main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content button img {}
+/* -----센터 */
+main .main8 .footer .footer_right .f_r_center {
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 91.22px;
+    display: flex;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject {
+    margin-right: 75px;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject .title {
+    font-size: 0.938rem; font-weight: 500;
+    margin-bottom: 10px;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject > p {}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject > p img {}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject a {
+    margin-right: 10px;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject a img {}
+/* -----바텀 */
+main .main8 .footer .footer_right .f_r_bottom {
+    /* background-color: lightblue; */
+    display: flex; align-items: center; float: right;
+}
+main .main8 .footer .footer_right .f_r_bottom img {margin-right: 7px;}
+main .main8 .footer .footer_right .f_r_bottom span {font-size: 0.75rem;}
