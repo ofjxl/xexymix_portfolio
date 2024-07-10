@@ -354,10 +354,10 @@ main .main8 .footer .footer_right .f_r_center {
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject {
     margin-right: 60px;
+    display: flex; flex-flow: column nowrap;
 }
-main .main8 .footer .footer_right .f_r_center .f_r_center_subject:last-child {margin-right: 0;}
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject:last-child {
-    margin-left: 80px;
+    /* background-color: aqua; */ margin-right: 0;
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject .title {
     font-size: 0.938rem; font-weight: 500;
