@@ -144,3 +144,159 @@ main .main4 p {
 /* ================================================================ */
 main .main5_bg {width: 1920px; margin: 0 auto; margin-bottom: 80px;}
 /* ================================================================ */
+main .main6 {
+    width: 1845px; margin: 0 auto;
+    margin-bottom: 89px;
+}
+main .main6 .summer_collection {text-align: center; margin-bottom: 40px;}
+main .main6 .summer_collection h2 {
+    margin-bottom: 18px;
+}
+main .main6 .summer_collection h2 img {}
+main .main6 .summer_collection h3 {
+    font-size: 2.313rem;
+}
+main .main6 .summer_collection_menu {
+    margin-bottom: 66px; text-align: center;
+}
+main .main6 .summer_collection_menu a {
+    background-color: #F8F8F8; color: #464646; 
+    border: 1px solid #dadada; border-radius: 30px;
+    padding: 7.5px 16px; text-align: center;
+    margin-right: 11px;
+}
+main .main6 .summer_collection_menu a:first-child {
+    background-color: #464646; color: #fff;
+    padding: 7.5px 16px; text-align: center;
+    border: 0;
+}
+main .main6 .summer_collection_menu a:last-child {margin-right: 0;}
+/* 상품 시작 */
+main .main6 .summer_collection_product {
+    display: flex;
+}
+main .main6 .summer_collection_product a {
+    margin-right: 22px;
+}
+main .main6 .summer_collection_product a > p {
+    margin-bottom: 18px;
+}
+main .main6 .summer_collection_product a p img {}
+/* 상품 내용 */
+main .main6 .summer_collection_product a .s_c_product_content {}
+main .main6 .summer_collection_product a .s_c_product_content .top {
+    display: flex; justify-content: space-between;
+    margin-bottom: 9px;
+}
+main .main6 .summer_collection_product a .s_c_product_content .top .product_num {
+    font-size: 0.813rem; color: #A7A7A7;
+}
+main .main6 .summer_collection_product a .s_c_product_content .top .review {
+    font-size: 0.813rem; color: #EE5E95;
+}
+main .main6 .summer_collection_product a .s_c_product_content h2 {
+    font-size: 0.938rem; font-weight: 500;
+    margin-bottom: 7px;
+}
+main .main6 .summer_collection_product a .s_c_product_content .bottom {
+    display: flex; align-items: center;
+}
+main .main6 .summer_collection_product a .s_c_product_content .bottom .percent {
+    font-size: 0.938rem; color: #EE5E95;
+    margin-right: 9px;
+}
+main .main6 .summer_collection_product a .s_c_product_content .bottom .price {
+    font-size: 0.938rem; 
+    margin-right: 9px;
+}
+main .main6 .summer_collection_product a .s_c_product_content .bottom .cost {}
+main .main6 .summer_collection_product a .s_c_product_content .bottom .cost del {
+    font-size: 0.813rem; color: #595656;
+}
+/* ========================================================================= */
+main .main7 {
+    width: 1920px; margin: 0 auto;
+}
+main .main7 .coupon {
+    background-color: #000;
+    padding: 31px 667px;
+    display: flex; align-items: center;
+}
+main .main7 .coupon img {
+    margin-right: 9px; border: 1px solid red;
+}
+main .main7 .coupon span {
+    color: #fff;
+    font-size: 1.875rem; font-weight: 600;
+}
+/* ================================= */
+main .main8 {
+    width: 1920px; margin: 0 auto;
+    background-color: #f4f4f4;
+}
+main .main8 .footer {
+    width: 1750px; margin: 0 auto; 
+    display: flex; 
+    padding: 71.87px 85px 72.78px;
+}
+main .main8 .footer .footer_left {}
+main .main8 .footer .footer_left h2 {
+    margin-bottom: 11.98px;
+}
+main .main8 .footer .footer_left h2 a {}
+main .main8 .footer .footer_left h2 a img {}
+main .main8 .footer .footer_left > p {
+    margin-bottom: 2px;
+    font-size: 0.813rem;
+}
+main .main8 .footer .footer_left > p:last-child {margin-bottom: 0;}
+main .main8 .footer .footer_left .footer_left_info {
+    margin-top: 23.96px; 
+    display: flex; align-items: center;
+    margin-bottom: 26.95px;
+}
+main .main8 .footer .footer_left .footer_left_info a {
+    font-size: 0.75rem; color: #828282;
+    position: relative;
+    margin-right: 10px; margin-left: 10px;
+}
+main .main8 .footer .footer_left .footer_left_info a:first-child {margin-left: 0;}
+main .main8 .footer .footer_left .footer_left_info a:last-child {margin-right: 0;}
+main .main8 .footer .footer_left .footer_left_info a::after {
+    content: ''; display: block;
+    width: 1px; height: 10px;
+    background-color: #828282;
+    position: absolute; right: -10px; top: 1px;
+}
+main .main8 .footer .footer_left .footer_left_info a:last-child::after {display: none;}
+/* --------------------- */
+main .main8 .footer .footer_left .footer_left_contents {
+    margin-bottom: 26.95px; color: #828282; 
+    border: 1px solid blue;
+}
+main .main8 .footer .footer_left .footer_left_contents:last-child {margin-bottom: 0;}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content {
+    display: flex;/*  border: 1px solid red; */
+    align-items: center;
+}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content p {
+    margin-bottom: 7px; font-size: 0.75rem;
+    margin-right: 10px; margin-left: 10px;
+}
+main .main8 footer .footer_left .footer_left_contents .f_l_content p:first-child {margin-left: 0;}
+main .main8 footer .footer_left .footer_left_contents .f_l_content p:last-child {margin-right: 0;}
+main .main8 footer .footer_left .footer_left_contents .f_l_content p::after {
+    content: ''; display: block;
+    width: 1px; height: 10px;
+}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content p:last-child {margin-bottom: 0;}
+main .main8 .footer .footer_left .footer_left_contents > p {
+    font-size: 0.75rem; margin-bottom: 7px;
+}
+main .main8 .footer .footer_left .footer_left_contents > p:last-child {
+    margin-bottom: 0;
+}
+main .main8 .footer .footer_left .footer_left_contents > p:first-child {
+    margin-bottom: 0;
+}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content p::after {}
