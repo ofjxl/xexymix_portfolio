@@ -330,9 +330,8 @@ main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content p {
     margin-bottom: 6px;
     font-size: 0.75rem; color: #828282;
 }
-main .main8 .footer .footer_right .r_r_top .f_r_top_subject .f_r_top_content {
-    line-height: 18px;
-    /* background-color: tomato; */
+main .main8 .footer .footer_right .f_r_top .f_r_top_content {
+    line-height: 18px; font-size: 0.75rem; color: #828282;
     margin-top: 13px;
 }
 main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content p span {font-size: 0.75rem; margin-left: 8px;}
