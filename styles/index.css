@@ -228,11 +228,11 @@ main .main7 {
 }
 main .main7 .coupon {
     background-color: #000;
-    padding: 31px 667px;
-    display: flex; align-items: center;
+    padding: 31px 0;
+    display: flex; align-items: center; justify-content: center;
 }
 main .main7 .coupon img {
-    margin-right: 9px; border: 1px solid red;
+    margin-right: 9px; /* border: 1px solid red; */
 }
 main .main7 .coupon span {
     color: #fff;
@@ -248,7 +248,7 @@ main .main8 .footer {
     display: flex; justify-content: space-between;
     padding: 71.87px 85px 72.78px;
 }
-main .main8 .footer .footer_left {}
+main .main8 .footer .footer_left {/* border: 1px solid red; */}
 main .main8 .footer .footer_left h2 {
     margin-bottom: 11.98px;
 }
@@ -281,24 +281,25 @@ main .main8 .footer .footer_left .footer_left_info a:last-child::after {display:
 /* --------------------- */
 main .main8 .footer .footer_left .footer_left_contents {
     margin-bottom: 26.95px; color: #828282; 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 main .main8 .footer .footer_left .footer_left_contents:last-child {margin-bottom: 0;}
 main .main8 .footer .footer_left .footer_left_contents .f_l_content {
-    display: flex;/*  border: 1px solid red; */
+    display: flex; align-items: center; justify-content: start;
     align-items: center;
 }
 main .main8 .footer .footer_left .footer_left_contents .f_l_content p {
     margin-bottom: 7px; font-size: 0.75rem;
-    margin-right: 10px; margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
 }
-main .main8 footer .footer_left .footer_left_contents .f_l_content p:first-child {margin-left: 0;}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content p::after {
+    content: '';
+    width: 1px; height: 10px; background-color: #828282;
+    position: absolute; right: -10px; top: 1px;
+}
+main .main8 .footer .footer_left .footer_left_contents .f_l_content p:last-child::after {display: none;}
 main .main8 footer .footer_left .footer_left_contents .f_l_content p:last-child {margin-right: 0;}
-main .main8 footer .footer_left .footer_left_contents .f_l_content p::after {
-    content: ''; display: block;
-    width: 1px; height: 10px;
-}
-main .main8 .footer .footer_left .footer_left_contents .f_l_content p:last-child {margin-bottom: 0;}
 main .main8 .footer .footer_left .footer_left_contents > p {
     font-size: 0.75rem; margin-bottom: 7px;
 }
@@ -308,9 +309,8 @@ main .main8 .footer .footer_left .footer_left_contents > p:last-child {
 main .main8 .footer .footer_left .footer_left_contents > p:first-child {
     margin-bottom: 0;
 }
-main .main8 .footer .footer_left .footer_left_contents .f_l_content p::after {}
 /* -----------footer_right */
-main .main8 .footer .footer_right {}
+main .main8 .footer .footer_right {/* border: 1px solid blue; */}
 /* -----탑 */
 main .main8 .footer .footer_right .f_r_top {
     /* background-color: lightgreen; */
@@ -349,12 +349,16 @@ main .main8 .footer .footer_right .f_r_top .f_r_top_subject button span {
 main .main8 .footer .footer_right .f_r_top .f_r_top_subject .content button img {}
 /* -----센터 */
 main .main8 .footer .footer_right .f_r_center {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
     margin-bottom: 91.22px;
     display: flex;
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject {
-    margin-right: 75px;
+    margin-right: 60px;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject:last-child {margin-right: 0;}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject:last-child {
+    margin-left: 80px;
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject .title {
     font-size: 0.938rem; font-weight: 500;
@@ -362,8 +366,12 @@ main .main8 .footer .footer_right .f_r_center .f_r_center_subject .title {
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject > p {}
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject > p img {}
-main .main8 .footer .footer_right .f_r_center .f_r_center_subject a {
-    margin-right: 10px;
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject .content{
+    display: flex; align-items: center;
+}
+main .main8 .footer .footer_right .f_r_center .f_r_center_subject .content > a {
+    margin-right: 10px; 
+    font-size: 0.75rem; color: #999;
 }
 main .main8 .footer .footer_right .f_r_center .f_r_center_subject a img {}
 /* -----바텀 */
