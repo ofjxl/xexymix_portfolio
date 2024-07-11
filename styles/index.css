@@ -99,7 +99,9 @@ main .main2 .main2_bottom .product a {
     margin-right: 40px;
 }
 main .main2 .main2_bottom .product a:last-child {margin-right: 0;}
-main .main2 .main2_bottom .product a p {}
+main .main2 .main2_bottom .product a p {
+    margin-bottom: 8px;
+}
 main .main2 .main2_bottom .product a p img {}
 main .main2 .main2_bottom .product a .product_content {}
 main .main2 .main2_bottom .product a .product_content .top {
@@ -134,36 +136,34 @@ main .main2 .main2_bottom .product a .product_content .bottom .cost del {
 /* ============================================================================ */
 main .main3_bg {
     width: 1920px; margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 81px;
 }
 main .main3_bg img {}
 /* ============================================================================== */
 main .main4 {
     width: 1920px; margin: 0 auto;
     text-align: center;
-    margin-bottom: 79px; 
+    margin-bottom: 81px; 
 }
 main .main4 h2 {
-    font-size: 3.125rem; font-weight: 600;
-    margin-bottom: 19px;
+    font-size: 2.813rem; font-weight: 600;
+    margin-bottom: 27px;
 }
 main .main4 p {
-    font-size: 1.563rem; line-height: 50px; letter-spacing: -0.2px;
+    font-size: 1.25rem; line-height: 40px; letter-spacing: -0.2px;
 }
 /* ================================================================ */
-main .main5_bg {width: 1920px; margin: 0 auto; margin-bottom: 80px;}
+main .main5_bg {width: 1920px; margin: 0 auto; margin-bottom: 70px;}
 /* ================================================================ */
 main .main6 {
     width: 1845px; margin: 0 auto;
     margin-bottom: 89px;
 }
-main .main6 .summer_collection {text-align: center; margin-bottom: 40px;}
-main .main6 .summer_collection h2 {
-    margin-bottom: 18px;
-}
+main .main6 .summer_collection {text-align: center; margin-bottom: 49px;}
+main .main6 .summer_collection h2 {}
 main .main6 .summer_collection h2 img {}
 main .main6 .summer_collection h3 {
-    font-size: 2.313rem;
+    font-size: 1.875rem;
 }
 main .main6 .summer_collection_menu {
     margin-bottom: 66px; text-align: center;
