@@ -180,47 +180,73 @@ main .main6 .summer_collection_menu a:first-child {
     border: 0;
 }
 main .main6 .summer_collection_menu a:last-child {margin-right: 0;}
-/* 상품 시작 */
+/* -----------상품 시작----------swiper--------*/
 main .main6 .summer_collection_product {
-    display: flex;
+    width: 1845px; margin: 0 auto; 
 }
-main .main6 .summer_collection_product a {
+/* swiper 시작 */
+main .main6 .summer_collection_product .swiper {}
+main .main6 .summer_collection_product .main6-slide {}
+main .main6 .summer_collection_product .swiper .swiper-wrapper {}
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide {}
+/* 위로는 건들면 안됨 */
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide {
+    display: flex; justify-content: space-between;
+}
+main .main6 .summer_collection_product.swiper .swiper-wrapper .swiper-slide a {
     margin-right: 22px;
 }
-main .main6 .summer_collection_product a > p {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a:last-child {margin-right: 0;}
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a > p {
     margin-bottom: 18px;
 }
-main .main6 .summer_collection_product a p img {}
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a p img {}
 /* 상품 내용 */
-main .main6 .summer_collection_product a .s_c_product_content {}
-main .main6 .summer_collection_product a .s_c_product_content .top {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a .s_c_product_content {}
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a .s_c_product_content .top {
     display: flex; justify-content: space-between;
     margin-bottom: 9px;
 }
-main .main6 .summer_collection_product a .s_c_product_content .top .product_num {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide a .s_c_product_content .top .product_num {
     font-size: 0.813rem; color: #A7A7A7;
 }
-main .main6 .summer_collection_product a .s_c_product_content .top .review {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .top .review {
     font-size: 0.813rem; color: #EE5E95;
 }
-main .main6 .summer_collection_product a .s_c_product_content h2 {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content h2 {
     font-size: 0.938rem; font-weight: 500;
     margin-bottom: 7px;
 }
-main .main6 .summer_collection_product a .s_c_product_content .bottom {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .bottom {
     display: flex; align-items: center;
 }
-main .main6 .summer_collection_product a .s_c_product_content .bottom .percent {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .bottom .percent {
     font-size: 0.938rem; color: #EE5E95;
     margin-right: 9px;
 }
-main .main6 .summer_collection_product a .s_c_product_content .bottom .price {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .bottom .price {
     font-size: 0.938rem; 
     margin-right: 9px;
 }
-main .main6 .summer_collection_product a .s_c_product_content .bottom .cost {}
-main .main6 .summer_collection_product a .s_c_product_content .bottom .cost del {
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .bottom .cost {}
+main .main6 .summer_collection_product .swiper .swiper-wrapper .swiper-slide  a .s_c_product_content .bottom .cost del {
     font-size: 0.813rem; color: #595656;
+}
+main .main6 .summer_collection_product .swiper .swiper-button-prev {
+    color: #fff;
+    background-color: #aaa;
+    width: 26px; height: 26px;
+    transform: scale(1.5);
+}
+main .main6 .summer_collection_product .swiper .swiper-button-next {
+    color: #fff;
+    background-color: #aaa;
+    width: 26px; height: 26px;
+    transform: scale(1.5);
+}
+main .main6 .summer_collection_product .swiper .swiper-button-prev::after,
+main .main6 .summer_collection_product .swiper .swiper-button-next::after {
+    transform: scale(0.4);
 }
 /* ========================================================================= */
 main .main7 {
